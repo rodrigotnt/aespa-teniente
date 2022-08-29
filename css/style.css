@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+    box-sizing: border-box;
+
+}
+
+.barra-de-navegacion {
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    margin: 50px;
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+header {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+a:hover {
+    color: rgb(108, 11, 114);
+    font-size: large;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.main-integrantes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(224, 192, 255);
+    flex-wrap: wrap;
+}
+
+.img-karina {
+    display: flex;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-width: 300px;
+}
+
+.img-giselle {
+    display: flex;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-width: 300px;
+}
+
+.img-winter {
+    display: flex;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-width: 300px;
+}
+
+.img-ningning {
+    display: flex;
+    height: auto;
+    width: auto;
+    max-width: 300px;
+    max-width: 300px;
+}
+
+.div-integrantes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px;
+    padding: 20px;
+}
+
+main {
+    background-color: rgb(224, 192, 255);
+}
+
+.horizontal {
+    flex: 25%;
+    width: 100%;
+}
+
+.vertical {
+    display: grid;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 850px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-row-gap: 15px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.galeria-grupal {
+    height: 400px;
+
+    padding: 10px;
+}
+
+.titulo-galeria-grupal {
+    text-align: center;
+}
+
+.footer-banner {
+    display: flex;
+    background: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-wrap: wrap;
+}
+
+.album-img {
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.disco-title {
+    text-align: center;
+}
+
+.savage {
+    margin: 30px;
+    padding: 30px;
+
+}
+
+.flex-album {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title-historia {
+    text-align: center;
+}
+
+.parrafos {
+    margin: 20px;
+    text-align: justify;
+}
+@media (max-width: 980px){
+    header{
+        flex-direction: column;
+    }
+}
