@@ -36,7 +36,8 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    background-color: rgb(224, 192, 255);
+    background: linear-gradient(.50deg, #735D78, #b392ac, #d1b3c4);
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -79,6 +80,7 @@ header {
     flex-wrap: wrap;
     margin: 20px;
     padding: 20px;
+    background-color: deeppink;
 }
 
 main {
