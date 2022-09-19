@@ -159,8 +159,23 @@ main {
     
 
 }
+.index-videos{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
 @media (max-width: 980px){
     header{
         flex-direction: column;
     }
+    .main-integrantes{
+        flex-direction: column;
+    }
+    footer{
+        flex-direction: column;
+    }
+
 }
